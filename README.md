@@ -2,7 +2,13 @@
 
 This is a simple zsh plugin manager inspired from [chris@machine](https://www.youtube.com/@chrisatmachine)'s [YouTube video](https://www.youtube.com/watch?v=bTLYiNvRIVI).
 
-## Prerequisites:
+## Installation
+
+```zsh
+git clone "https://github.com/bantya/zsh-plug-man" ~/.config/zsh/
+```
+
+## Next steps
 
 Run following commands to create a `.zprofile` file in root directory:
 
@@ -26,7 +32,9 @@ Then create `functions/`, `plugins/` and `themes/` directories:
 mkdir ~/.config/zsh/functions ~/.config/zsh/plugins ~/.config/zsh/themes
 ```
 
-Optionally to start with clean `aliases.zsh`, `exports.zsh`, `plugins.zsh`:
+## Optional
+
+Optionally to start with clean `aliases.zsh`, `exports.zsh`, `plugins.zsh` files:
 
 ```zsh
 echo > ~/.config/zsh/aliases.zsh
