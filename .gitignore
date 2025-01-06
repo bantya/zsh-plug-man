@@ -4,4 +4,6 @@
 /plugins/*
 /themes/*
 
+!/functions/create-function.sh
+!/functions/hello-user.sh
 !/themes/default.zsh-theme
