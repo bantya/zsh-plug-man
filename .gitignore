@@ -1,0 +1,7 @@
+.DS_Store
+
+/functions/*
+/plugins/*
+/themes/*
+
+!/themes/default.zsh-theme
